@@ -12,6 +12,7 @@ print("Server is Running On "+ server+ ".")
 s.listen(1)
 conn,addr=s.accept()
 print("connected")
+print("Client is online!")
 print(addr)
 
 class send(Thread):
