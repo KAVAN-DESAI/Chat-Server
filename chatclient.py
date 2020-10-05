@@ -8,6 +8,7 @@ host="127.0.0.1"
 port=4455
 s.connect((host,port))
 print("Connected to server: "+ host+ ".")
+print("Online")
 
 class send(Thread):
     def run(self):
